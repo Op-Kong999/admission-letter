@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School Admission Form</title>
+  <script src="JS/jquery-3.7.1.js"></script>
+ <script src="JS/script.js"></script>
+ <link rel="stylesheet" href="styless.css"></head>
+<body>
+
+  <div class="form-container">
+    <h2>School Admission Form</h2>
+    <form id="admissionForm">
+      <label for="name">Full Name:</label>
+      <input type="text" placeholder="Enter your full name...." id="name" name="name">
+
+      <label for="age">Age:</label>
+      <input type="number" placeholder="Input your age" id="age" name="age">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" placeholder="select you date of birth" id="dob" name="dob">
+
+      <label for="course">Course to Study:</label>
+      <select id="course" name="course">
+        <option value="">-- Select a Course --</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Business Administration">Business Administration</option>
+        <option value="Music">Music</option>
+        <option value="Theater Arts">Theater Arts</option>
+        <option value="Biology">Biology</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Criminology">Criminology</option>
+        <option value="Design">Design</option>
+
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="messages" id="formMessages"></div>
+  </div>  
+</body>
