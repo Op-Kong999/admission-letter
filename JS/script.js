@@ -1,5 +1,4 @@
-
-$(document).ready(function () {
+(document).ready(function () {
   $('#admissionForm').on('submit', function (e) {
     e.preventDefault();
     $('#formMessages').empty();
@@ -25,3 +24,4 @@ $(document).ready(function () {
     `);    
   });
 });
+$
