@@ -3,8 +3,9 @@ body {
   background-color: #f0f2f5;
   padding: 40px;
 }
-.Logo{
-  
+.image-div{
+ border:   2px;
+ margin-left: 70px;
 }
 .form-container {
   background-color: #fff;
