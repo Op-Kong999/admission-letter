@@ -5,6 +5,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.Headinimg{
+  img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;  
+}
+
+}
 .image-div{
  border:   2px;
  margin-left: 70px;
