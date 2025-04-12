@@ -4,6 +4,7 @@ body {
   padding: 40px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 .Headinimg{
   img {
@@ -11,6 +12,23 @@ body {
     height: auto;     
     display: block;   
     margin: 0 auto;  
+}
+body {
+  font-size: 16px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  body {
+      font-size: 15px;
+  }
 }
 
 }
