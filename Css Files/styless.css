@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.image-div{
+ border:   2px;
+ margin-left: 70px;
+}
+.form-container {
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  transition: .3s;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.7;
+  background-color: black;
+}
+.edit{
+  background-color: red;
+}
+.messages {
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+  display: none;
+}
+
+.error {
+  color: red;
+}
+.success h4 {
+  margin-bottom: 10px;
+  color: #2e7d32;
+  text-transform: uppercase;
+  text-align: center;
+}

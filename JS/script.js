@@ -7,7 +7,7 @@ $(document).ready(function () {
     const age = $('#age').val();
     const dob = $('#dob').val();
     const course = $('#course').val();
-
+ 
     $('.name').text(name)
     $('.age').text(age)
     $('.date').text(dob)
