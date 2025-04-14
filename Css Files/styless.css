@@ -1,3 +1,8 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
@@ -7,7 +12,6 @@ body {
   font-size: 16px;
 }
 .Headinimg{
-  img {
     max-width: 100%;  
     height: auto;     
     display: block;   
@@ -17,14 +21,12 @@ body {
   font-size: 16px;
 }
 
-/* Mobile styles */
 @media (max-width: 768px) {
   body {
       font-size: 14px;
   }
 }
 
-/* Tablet styles */
 @media (max-width: 1024px) {
   body {
       font-size: 15px;
